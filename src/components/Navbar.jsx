@@ -78,13 +78,13 @@ const Navbar = () => {
                 {link.dropdown && (
                   <div className="absolute left-0 mt-0 w-48 bg-white border border-gray-100 shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                     {link.dropdown.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.path}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
