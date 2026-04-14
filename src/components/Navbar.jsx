@@ -40,13 +40,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-24">
           {/* Logo Section */}
           <div className="shrink-0 flex items-center">
-            <a href="/">
+            <Link to="/">
               <img
                 className="h-30 w-auto"
                 src={logo}
                 alt="Sholztech IT Solutions Logo"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
@@ -66,12 +66,12 @@ const Navbar = () => {
                     {link.name}
                   </Link>
                 ) : (
-                  <a
-                    href={link.path}
+                  <Link
+                    to={link.path}
                     className={`px-4 py-2 text-[18px] text-[#08294f] font-bold transition-all duration-200`}
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 ))}
 
                 {/* Dropdown Menu */}
@@ -80,7 +80,7 @@ const Navbar = () => {
                     {link.dropdown.map((item) => (
                       <Link
                         key={item.name}
-                        href={item.path}
+                        to={item.path}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600"
                       >
                         {item.name}
