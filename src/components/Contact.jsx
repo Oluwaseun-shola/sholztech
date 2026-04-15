@@ -20,10 +20,10 @@ const Contact = () => {
     // EmailJS logic using Vite environment variables
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICEID,
-        import.meta.env.VITE_TEMPLATEID,
+        "service_zzoc3y4",
+        "template_jcigtih",
         form.current,
-        import.meta.env.VITE_PUBLICKEY
+        "8uA8gcCq_8V3Q3wUN"
       )
       .then(
         (result) => {

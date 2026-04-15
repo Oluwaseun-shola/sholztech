@@ -34,10 +34,10 @@ const Register = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_SERVICEIDII, // replace
-        import.meta.env.VITE_TEMPLATEIDII, // replace
+        "service_f98n291", // replace
+        "template_cp9lous", // replace
         templateParams,
-        import.meta.env.VITE_PUBLICKEY // replace
+        "8uA8gcCq_8V3Q3wUN" // replace
       )
       .then(
         (response) => {
