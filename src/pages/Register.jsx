@@ -37,7 +37,7 @@ const Register = () => {
         import.meta.env.VITE_SERVICEIDII, // replace
         import.meta.env.VITE_TEMPLATEIDII, // replace
         templateParams,
-        import.meta.env.VITE_PublicKey // replace
+        import.meta.env.VITE_PUBLICKEY // replace
       )
       .then(
         (response) => {

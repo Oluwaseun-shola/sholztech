@@ -19,10 +19,10 @@ const Contact = () => {
 
     // EmailJS logic using Vite environment variables
     emailjs.sendForm(
-      import.meta.env.VITE_serviceID, 
-      import.meta.env.VITE_templateID, 
+      import.meta.env.VITE_SERVICEID, 
+      import.meta.env.VITE_TEMPLATEID, 
       form.current, 
-      import.meta.env.VITE_PublicKey
+      import.meta.env.VITE_PUBLICKEY
     )
       .then((result) => {
           console.log("Email Sent:", result.text);

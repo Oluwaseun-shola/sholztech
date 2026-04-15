@@ -20,9 +20,12 @@ jobs:
           npm install
           npm run build
         env:
-          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
-          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
-          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
+          VITE_SERVICEID: ${{ secrets.VITE_SERVICEID }}
+          VITE_TEMPLATEID: ${{ secrets.VITE_TEMPLATEID }}
+          VITE_PUBLICKEY: ${{ secrets.VITE_PUBLICKEY }}
+          VITE_TEMPLATEIDII: ${{ secrets.VITE_TEMPLATEIDII }}
+          VITE_SERVICEIDII: ${{ secrets.VITE_SERVICEIDII }}
+          VITE_PRIVATEKEY: ${{ secrets.VITE_PRIVATEKEY }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

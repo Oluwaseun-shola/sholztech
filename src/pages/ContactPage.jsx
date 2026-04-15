@@ -21,10 +21,10 @@ const ContactPage = () => {
     // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_PUBLIC_KEY'
     emailjs
       .sendForm(
-        import.meta.env.VITE_serviceID,
-        import.meta.env.VITE_templateID,
+        import.meta.env.VITE_SERVICEID,
+        import.meta.env.VITE_TEMPLATEID,
         form.current,
-        import.meta.env.VITE_PublicKey
+        import.meta.env.VITE_PUBLICKEY
       )
       .then(
         (result) => {
