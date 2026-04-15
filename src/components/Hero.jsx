@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 const slides = [
   {
@@ -67,18 +68,18 @@ const Hero = () => {
                 {/* CTA Buttons */}
                 {slide.showCTA && (
                   <div className="flex justify-center gap-4 flex-wrap">
-                    <a
-                      href="/register"
+                    <Link
+                      to="/register"
                       className="bg-[#415A77] px-6 py-3 rounded-lg font-semibold"
                     >
                       Register Now
-                    </a>
-                    <a
-                      href="/AllCourses"
+                    </Link>
+                    <Link
+                      to="/AllCourses"
                       className="bg-white text-black px-6 py-3 rounded-lg font-semibold"
                     >
                       View Courses
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
