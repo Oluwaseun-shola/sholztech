@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { courses } from "../data/data.js";
 
 const Course = () => {
@@ -73,7 +73,7 @@ const Course = () => {
           {/* CTA */}
           <div className="mt-6 flex gap-4">
             <button className="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
-              <a href="/register"> Register Now</a>
+              <Link href="/register"> Register Now</Link>
             </button>
 
             <button className="border border-gray-300 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition">
