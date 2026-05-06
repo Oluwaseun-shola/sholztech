@@ -4,7 +4,7 @@ export const courses = [
       title: "Web Development",
       description:
         "Learn how to build modern websites using HTML, CSS, JavaScript, and React. Perfect for beginners to intermediate learners.",
-      price: "₦150,000",
+      // price: "₦150,000",
       duration: "12 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner to Intermediate",
@@ -16,7 +16,7 @@ export const courses = [
       title: "Data Analysis",
       description:
         "Master data analysis using Excel, Power BI, SQL and real-world datasets. Become job-ready as a data analyst.",
-      price: "₦120,000",
+      // price: "₦120,000",
       duration: "10 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner to Intermediate",
@@ -28,7 +28,7 @@ export const courses = [
       title: "UI/UX Design",
       description:
         "Learn how to design user-friendly interfaces and experiences using Figma and modern design principles.",
-      price: "₦100,000",
+      // price: "₦100,000",
       duration: "8 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -40,7 +40,7 @@ export const courses = [
       title: "Mobile App Development",
       description:
         "Build cross-platform mobile apps using React Native and deploy them to Android and iOS.",
-      price: "₦180,000",
+      // price: "₦180,000",
       duration: "14 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Intermediate",
@@ -52,7 +52,7 @@ export const courses = [
       title: "Digital Marketing",
       description:
         "Learn SEO, social media marketing, and paid ads to grow businesses online.",
-      price: "₦90,000",
+      // price: "₦90,000",
       duration: "6 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -64,7 +64,7 @@ export const courses = [
       title: "Graphics Design",
       description:
         "Create stunning designs using Photoshop and Illustrator for branding and marketing.",
-      price: "₦80,000",
+      // price: "₦100,000",
       duration: "6 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -76,7 +76,7 @@ export const courses = [
       title: "Cybersecurity Fundamentals",
       description:
         "Learn the fundamentals of cybersecurity and secure your digital assets.",
-      price: "₦70,000",
+      // price: "₦150,000",
       duration: "4 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -88,7 +88,7 @@ export const courses = [
       title: "Google Productivity Suite",
       description:  
         "Learn how to use the Google Productivity Suite for productivity and collaboration.",
-      price: "₦50,000",
+      // price: "₦50,000",
       duration: "2 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -100,7 +100,7 @@ export const courses = [
       title: "Advanced Excel & Data Visualization",
       description:  
         "Master advanced Excel skills and data visualization using Power BI and Tableau.",
-      price: "₦50,000",
+      // price: "₦50,000",
       duration: "2 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Intermediate",
@@ -112,7 +112,7 @@ export const courses = [
       title: "Basic ICT Skills",
       description:  
         "Master essential computer skills, Microsoft Office Suite, and internet fundamentals for the modern workplace.",
-      price: "₦50,000",
+      // price: "₦50,000",
       duration: "2 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Beginner",
@@ -124,7 +124,7 @@ export const courses = [
       title: "Database Management with SQL",
       description:  
         "Learn how to manage databases effectively using SQL and relational databases.",
-      price: "₦70,000",
+      // price: "₦70,000",
       duration: "2 Weeks",
       instructor: "Oluwaseun Ogunbowale",
       level: "Intermediate",

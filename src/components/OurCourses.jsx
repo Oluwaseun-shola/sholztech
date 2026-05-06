@@ -92,7 +92,7 @@ const OurCourses = () => {
             </h1>
           </div>
           <Link
-            to="/courses"
+            to="/AllCourses"
             className="inline-flex items-center text-[#778DA9] font-bold hover:text-[#4b596a] transition-colors"
           >
             View All Courses <ArrowRight size={20} className="ml-2" />
